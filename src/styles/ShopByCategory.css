@@ -1,0 +1,41 @@
+.shop-by-category {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .shop-by-category h2{
+    font-size: 2rem;
+  font-style: bold;
+  }
+  
+  .category-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .category-item {
+    text-align: center;
+    margin: 10px;
+    width: 200px;
+}
+
+.category-item img {
+    width: 200px; 
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto; /* Center the image */
+    
+}
+.category-item img:hover{
+
+    /* transform: scale(1.5); */
+    cursor: pointer;
+    
+}
+
+.category-item p {
+    margin-top: 10px;
+    font-size: 16px;
+}

@@ -1,0 +1,86 @@
+.product-categories {
+  text-align: center;
+  margin: 20px 130px 0 130px;
+}
+.product-categories h2 {
+  font-size: 2rem;
+  font-style: bold;
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: 300px;
+  gap: 10px;
+  padding: 10px;
+}
+
+.category-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  cursor: pointer;
+  position: relative; /* Added for overlay positioning */
+}
+
+.category-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Added hover effect for image */
+.category-card:hover img {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.category-card p {
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  position: relative; /* Added for proper stacking context */
+  z-index: 2; /* Added for proper stacking context */
+}
+
+/* Added styles for the overlay */
+.category-card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.category-card:hover .overlay {
+  opacity: 1;
+}
+
+/* Specific positioning for the collage layout */
+.category-card-1, .category-card-2, .category-card-5, .category-card-6, .category-card-7 {
+  grid-column: span 1;
+  grid-row: span 1;
+}
+
+.category-card-3 {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.category-card-4 {
+  grid-column: span 1;
+  grid-row: span 2;
+}

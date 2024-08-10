@@ -1,0 +1,46 @@
+.home-page {
+    position: relative;
+  }
+  
+  .carousel-slide {
+    position: relative;
+  }
+  
+  .carousel-slide img {
+    width: 100%;
+    height: auto;
+    max-height: 600px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensure the image covers the area */
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    /*background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.carousel-caption h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.explore-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+    background-color: #0056b3;
+}

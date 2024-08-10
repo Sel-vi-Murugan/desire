@@ -1,0 +1,85 @@
+/* AddUser.css */
+
+.adduser-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+}
+
+.adduser-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.adduser-logo {
+    max-width: 150px;
+    margin-bottom: 10px;
+}
+
+.adduser-form-container {
+    width: 100%;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.adduser-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button.adduser-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+button.adduser-button:hover {
+    background-color: #0056b3;
+}
+
+button.back-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #6c757d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.back-button:hover {
+    background-color: #5a6268;
+}

@@ -1,0 +1,99 @@
+.about-page {
+    padding: 40px;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    color: #333;
+    background-color: #f8f8f8;
+}
+.about-page h1{
+    font-style: bold;
+}
+.craftsmanship-content-lft {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.craftsmanship-content-lft h2{
+    font-size: 3rem;
+
+}
+
+.breadcrumb {
+    font-size: 20px;
+    color: #999;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 45px;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-weight: 700;
+    text-align: center;
+    font-style: bold;
+}
+
+.about-description {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 35px;
+    color: #555;
+    text-align: justify;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.craftsmanship-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.craftsmanship-image img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.craftsmanship-image img:hover {
+    transform: scale(1.05);
+}
+
+.craftsmanship-content {
+    max-width: 50%;
+}
+
+.craftsmanship-content h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+    color: #34495e;
+    font-weight: 600;
+}
+
+.craftsmanship-content p {
+    font-size: 18px;
+    line-height: 1.8;
+    color: #555;
+}
+
+.craftsmanship-content button {
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #8C8F4F;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.craftsmanship-content button:hover {
+    background-color: #757a39;
+}
